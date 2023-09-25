@@ -125,3 +125,33 @@ nav h1 {
 #disabled {
   background-color: #3a393c;
 }
+
+@media (max-width: 1170px) and (max-height: 2532px) {
+  nav h1 {
+    font-size: 30px; /* Decrease the font size */
+  }
+
+  .board {
+    width: 300px; /* Decrease the width */
+    height: 370px; /* Decrease the height */
+  }
+
+  .letter {
+    font-size: 20px; /* Decrease the font size */
+  }
+
+  .keyboard {
+    width: 90vw; /* Use viewport units to make it responsive */
+    height: 200px; /* Decrease the height */
+  }
+
+  .key {
+    width: 40px; /* Decrease the width */
+    height: 50px; /* Decrease the height */
+    font-size: 16px; /* Decrease the font size */
+  }
+
+  #big {
+    width: 80px; /* Decrease the width */
+  }
+}

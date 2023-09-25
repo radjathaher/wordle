@@ -25,7 +25,7 @@ function Keyboard() {
                     onSelectLetter(key);
                 }
             })
-            keys3.forEach((key) =>
+            keys3.forEach((key) => {
                 if (event.key.toLowerCase() === key.toLowerCase()) {
                     onSelectLetter(key);
                 }
